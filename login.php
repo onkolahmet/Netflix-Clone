@@ -9,9 +9,7 @@ $account = new Account($con);
     if(isset($_POST["submitButton"])) {
         $username = FormSanitizer::sanitizeFormUsername($_POST["username"]);
         $password = FormSanitizer::sanitizeFormPassword($_POST["password"]);
-
-
-        
+       
         $success = $account->login($username, $password);
         
         
