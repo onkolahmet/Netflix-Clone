@@ -3,7 +3,6 @@
         public static function getEntities($con, $categoryId, $limit) {
 
             $sql = "SELECT * FROM entities ";
-            
             if($categoryId != null) {
                 $sql .= "WHERE categoryid=:categoryId ";
             }
