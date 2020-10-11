@@ -6,6 +6,7 @@ if(isset($_POST["videoId"]) && isset($_POST["username"])) {
                             WHERE username=:username AND videoId=:videoId");
     $query->bindValue(":username", $_POST["username"]);
     $query->bindValue(":videoId", $_POST["videoId"]);
+    
     $query->execute();
 
 } else {
