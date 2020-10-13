@@ -7,4 +7,4 @@
 
 # Examples of Use and App Demo
 - Just like Netflix, the app has preview videos of shows and movies on the main page.Every time user refreshes the page, the preview will change. After showing the preview, it will show the entity's thumbnail.
-![](https://github.com/onkolahmet/Netflix-Clone/tree/master)
+![](https://github.com/onkolahmet/Netflix-Clone/blob/master/yhzXNtF%20-%20Imgur.gif)
